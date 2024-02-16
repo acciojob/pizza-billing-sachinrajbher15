@@ -20,11 +20,10 @@ public class Pizza {
         this.cheesePrice = 80;
         this.takeAwayPrice = 20;
 
-        if(isVeg==true){
+        if(isVeg == true){
             this.price = 300;
             this.toppingsPrice = 70;
-        }
-        else{
+        } else{
             this.price = 400;
             this.toppingsPrice = 120;
         }
@@ -48,7 +47,7 @@ public class Pizza {
 
     public void addExtraToppings(){
         // your code goes here
-        if(isToppingsAdded = false){
+        if(isToppingsAdded == false){
             this.price = this.price + this.toppingsPrice;
             isToppingsAdded = true;
         }
@@ -56,7 +55,7 @@ public class Pizza {
 
     public void addTakeaway(){
         // your code goes here
-        if(isTakeAwayAdded = false){
+        if(isTakeAwayAdded == false){
             this.price = this.price + this.takeAwayPrice;
             isTakeAwayAdded = true;
         }
@@ -69,10 +68,10 @@ public class Pizza {
                 this.bill = this.bill + "Extra Cheese Added: "+this.cheesePrice + "\n";
             }
             if(isToppingsAdded == true){
-                this.bill = this.bill + "Extra Toppings Added: "+this.toppingsPrice + "\n";
+                this.bill = this.bill + "Extra Toppings Added: "+ this.toppingsPrice + "\n";
             }
             if(isTakeAwayAdded == true){
-                this.bill = this.bill + "Paperbag Added: "+this.takeAwayPrice + "\n";
+                this.bill = this.bill + "Paperbag Added: "+ this.takeAwayPrice + "\n";
             }
             this.bill = this.bill + "Total Price: " + this.price + "\n";
             isBillGenerated = true;
