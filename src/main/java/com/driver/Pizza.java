@@ -54,7 +54,7 @@ public class Pizza {
         }
     }
 
-    public void addaway(){
+    public void addTakeaway(){
         // your code goes here
         if(isTakeAwayAdded = false){
             this.price = this.price + this.takeAwayPrice;
