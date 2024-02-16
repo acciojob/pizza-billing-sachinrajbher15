@@ -20,7 +20,7 @@ public class Pizza {
         this.cheesePrice = 80;
         this.takeAwayPrice = 20;
 
-        if(veg==true){
+        if(isVeg==true){
             this.price = 300;
             this.toppingsPrice = 70;
         }
