@@ -54,9 +54,9 @@ public class Pizza {
         }
     }
 
-    public void addTakeaway(){
+    public void addaway(){
         // your code goes here
-        if(istakeAwayAdded = false){
+        if(isTakeAwayAdded = false){
             this.price = this.price + this.takeAwayPrice;
             isTakeAwayAdded = true;
         }
@@ -71,7 +71,7 @@ public class Pizza {
             if(isToppingsAdded == true){
                 this.bill = this.bill + "Extra Toppings Added: "+this.toppingsPrice + "\n";
             }
-            if(istakeAwayAdded == true){
+            if(isTakeAwayAdded == true){
                 this.bill = this.bill + "Paperbag Added: "+this.takeAwayPrice + "\n";
             }
             this.bill = this.bill + "Total Price: " + this.price + "\n";
