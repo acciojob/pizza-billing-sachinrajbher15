@@ -7,7 +7,7 @@ public class Pizza {
     private String bill;
 
     private int cheesePrice;
-    private int topiingsPrice;
+    private int toppingsPrice;
     private int takeAwayPrice;
     boolean isCheeseAdded;
     boolean isToppingsAdded;
